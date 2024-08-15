@@ -6,12 +6,13 @@ This repository contains a set of R scripts designed to analyze and visualize th
 
 - [Overview](#overview)
 - [Installation and Requirements](#installation)
-- [Usage](#usage)
+- [Content](#content)
   - [1. Mapping](#1-mapping)
   - [2. Filtering](#2-filtering)
   - [3. Heatmap Generation](#3-heatmap-generation)
   - [4. Gene Set Enrichment Analysis](#4-gene-set-enrichment-analysis)
 - [Additional Scripts](#additional-scripts)
+- [Usage](#usage)
 - [Acknowledgements](#acknowledgements)
 
 ## Overview
@@ -43,7 +44,7 @@ You can install these packages using the following command in R:
 install.packages(c("ggplot2", "pheatmap", "GSEA", "dplyr", "tidyr", "biomaRt", "GenomicRanges", "gplots", "RColorBrewer", "RColorBrewer","grid", "gridExtra", "ComplexHeatmap"))
 ```
 
-## Usage
+## Content
 
 ### 1. Mapping
 
