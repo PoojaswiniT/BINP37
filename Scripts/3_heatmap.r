@@ -1,3 +1,7 @@
+###
+
+# Description - plotting the heatmap to visualise DNA methylation with respect to transcript expression
+
 #### Load libraries ####
 library(dplyr)
 library(tidyr)
@@ -62,6 +66,7 @@ my_palette = colorRampPalette(c("blue", "white", "yellow"))(n = 20)
 col_list_NCN = c("Basal"= "red", "Her2"= "purple", "LumA"= "blue", "LumB" = "lightblue", "Normal"= "green","unclassified"= "gray")
 col_list_NHG = c("1" = "gray",  "2" = "brown" ,"3" = "darkred")
 col_list_DRFI = c("0" = "pink","1" = "violet")
+
 # Create a categorical variable, and order of levels
 NCN_levels = factor(isoform_info$PAM50_NCN, levels = names(col_list_NCN)) 
 
@@ -80,7 +85,7 @@ na_col = "beige"
 #####
 #Before starting check the non numeric columns, change the variable gene_count_only accordingly and then proceed
 for(i in pam_50_genes$Gene.Name){
-    i = "FGFR4"
+    #i = "FGFR4"
     gene_data = variance_data[variance_data$gene_symbol == i,]
     if (nrow(gene_data) == 0) {
             print(paste("no match found for: ", i))

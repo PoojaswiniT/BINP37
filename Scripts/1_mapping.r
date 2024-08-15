@@ -1,3 +1,10 @@
+###
+
+# Description - the following code reads the given transcript count matrix and maps the transcript
+# ids to their respective gene ids, and other attritributes using biomaRt. 
+# Then it is matched with annotations of the EPIC data provided.
+
+
 ##### Load libraries
 library(dplyr)
 library(tidyr)

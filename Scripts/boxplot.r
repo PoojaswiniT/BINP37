@@ -1,3 +1,8 @@
+###
+
+#Description - plotting box plots to visualise the correlation between subtypes and transcript expression
+
+
 ##### Load libraries #####
 
 library(ggplot2)
@@ -5,7 +10,7 @@ library(reshape2)
 library(gridExtra)
 
 #Load the data
-load("variance_data.Rdata")
+load("variance_data.Rdata") # From filtering.R script
 for( i in unique(vd$gene_symbol)){
   gene_data = vd[vd$gene_symbol == i, ]
   # Remove the first two columns

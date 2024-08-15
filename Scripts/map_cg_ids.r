@@ -1,3 +1,10 @@
+###
+
+# Description - the code maps the CpG ids from the beta matrix  to the patient annotations.
+# The script to Subselect, getPromoter.Rdata was provided by Johan Staaf.
+# (Not part of the main pipeline)
+
+
 ##### Mapping the respective CpG ids from beta matrix ####
 
 #### Load the library ####
