@@ -1,3 +1,8 @@
+###
+
+# Description - the following code generates box plots for the FPKM values of FGFR4 gene
+# and the methylation status of two key CpGs
+
 library(dplyr)
 library(tidyr)
 library(ggplot2)
