@@ -66,9 +66,8 @@ The `GSEA.R` script performs Gene Set Enrichment Analysis, allowing for a deeper
 ## Additional Scripts
 
 - **CpG Mapping:** Additional scripts map CpG IDs to the beta data.
-- **Box Plots:** Generate box plots for individual genes correlating with breast cancer subtypes.
+- **Box Plots:** Generate box plots for individual genes correlating with breast cancer subtypes and FGFR4 mRNA expression levels with methylation staus of two key CpGS.
 - **Functions:** Various functions are included to facilitate running the main scripts.
-
 
 ## Usage 
 Each script can be run in a sequence, but be sure to save the R data objects whenever prompted, as this will make it easier to run the scripts and continue the analysis smoothly. Also, all the dependencies must be installed and the input data must be formatted correctly, additional comments are provided in the scripts.
